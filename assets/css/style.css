@@ -1,0 +1,218 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 0rem;
+  z-index: 2022;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .container nav .menu li {
+  margin-right: 4.8rem;
+}
+
+header .container nav .menu-social {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 4rem;
+  gap: 3.4rem;
+}
+
+header .container nav .menu-social img {
+  transition: all 0.3s ease-in-out;
+}
+header .container nav .menu-social img:hover {
+  filter: brightness(90%);
+  transform: translateY(-5%);
+}
+/* Section Hero */
+
+.s-hero {
+  background: url(../img/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+.s-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-hero .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 59.2rem;
+  margin-top: 24rem;
+  padding-bottom: 6rem;
+}
+.s-hero .container .title h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  text-align: center;
+  color: var(--white-color);
+}
+.s-hero .container .title h1 span {
+  color: var(--primary-color);
+}
+.s-hero .container .title h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.8);
+  margin-bottom: 3.2rem;
+}
+.s-hero .container .title p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: rgb(220, 246, 75, 0.8);
+}
+.s-hero .container .title .techs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-top: 2.3rem;
+}
+.s-hero .container .title .btn-primary {
+  margin-top: 4rem;
+  padding: 1rem 5.6rem;
+}
+
+.s-hero .container .title .techs img {
+  transition: all 0.3s ease-in-out;
+}
+.s-hero .container .title .techs img:hover {
+  transform: translateY(-12%);
+}
+.s-hero .container .title .techs .btn-primary {
+  margin-top: 4rem;
+  padding: 1rem 5.6rem;
+}
+
+/* About */
+
+.s-about {
+  background-color: var(--black-color-medium);
+  padding: 6rem 0;
+}
+.s-about .container {
+  display: flex;
+  justify-content: space-between;
+}
+.s-about .container .about-me {
+  width: 100%;
+  max-width: 71rem;
+}
+.s-about .container .about-me p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(255, 255, 255, 0.83);
+  margin-top: 2.4rem;
+}
+.s-about .container .about-me ul {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.s-about .container .about-me ul li a img {
+  transition: all 0.2s;
+}
+.s-about .container .about-me ul li a img:hover {
+  transform: translateY(-12%);
+  filter: brightness(90%);
+}
+
+.s-about .container .my-picture img {
+  width: 30%;
+  border-radius: 40rem;
+}
+
+/*contact */
+.s-contact {
+  padding-bottom: 4rem;
+}
+.s-contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s-contact .container .title-contact h2 {
+  margin-bottom: 2.4rem;
+}
+.s-contact .container .form-contact {
+  padding-top: 2.4rem;
+  padding-left: 2.4rem;
+  width: 100%;
+  max-width: 48.6rem;
+}
+.s-contact .container .form-contact .input-group textarea:hover {
+  border-color: var(--primary-color);
+}
+.s-contact .container .form-contact .input-group input {
+  margin-bottom: 3.1rem;
+}
+.s-contact .container .form-contact .input-group input:hover {
+  border-color: var(--primary-color);
+  
+}
+.input-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.s-contact .container .form-contact button {
+  border-radius: 2.4rem;
+  background-color: var(--primary-color);
+  padding: 1rem 2.4rem;
+  border: none;
+  margin-top: 1.7rem;
+  font-weight: 700;
+}
+
+/*footer*/
+footer {
+  background-color: var(--black-color-medium);
+}
+
+footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .copy {
+  padding: 5.2rem 0;
+  color:rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
