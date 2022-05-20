@@ -1,14 +1,51 @@
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1133px) {
+    .s-about .container{
+        flex-direction: column;
+        align-items: center;
+        gap:3.2rem;
+    }
+    .s-about .container .about-me h2{
+        text-align: center;
+    }
+    .s-about .container .about-me p{
+        text-align: center;
+    }
+    .s-about .container .about-me ul{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 950px) {
+    .s-contact .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-contact .container .title-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    .s-contact .container .title-contact form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-button{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
 }
 
-@media (max-width: 600px) {
-}
-
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+    html{
+        font-size:50.2%;
+    }
 }
