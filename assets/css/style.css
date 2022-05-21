@@ -132,6 +132,7 @@ header .container nav .menu-social img:hover {
   max-width: 71rem;
 }
 .s-about .container .about-me p {
+  display: block;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -150,11 +151,13 @@ header .container nav .menu-social img:hover {
 .s-about .container .about-me ul li a img:hover {
   transform: translateY(-12%);
   filter: brightness(90%);
+
 }
 
-.s-about .container .my-picture img {
-  width: 30%;
-  border-radius: 40rem;
+.s-about .container .my-picture img{
+  width: 368px;
+  height: 368px;
+  border-radius: 10rem;
 }
 
 /*contact */
