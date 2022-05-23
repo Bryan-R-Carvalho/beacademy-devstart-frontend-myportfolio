@@ -37,6 +37,7 @@ header .container nav .menu-social {
   gap: 3.4rem;
 }
 
+
 header .container nav .menu-social img {
   transition: all 0.3s ease-in-out;
 }
@@ -79,6 +80,18 @@ header .container nav .menu-social img:hover {
 .s-hero .container .title h1 span {
   color: var(--primary-color);
 }
+@keyframes animacao{
+  from{ transform: translateY(-12%);  
+  }to{
+    transform: translateX(-12%) rotate(-20deg);
+  }
+}
+.s-hero .container .title h1 span:nth-child(1):hover{
+  transform: translateY(-12%) translateX(-12%) rotate(-20deg);
+  background-color: var(--black-color-medium);
+  animation-name: animacao;
+  animation-duration: 2s;
+}
 .s-hero .container .title h2 {
   font-weight: 400;
   font-size: 2.4rem;
@@ -108,9 +121,11 @@ header .container nav .menu-social img:hover {
 
 .s-hero .container .title .techs img {
   transition: all 0.3s ease-in-out;
+
 }
 .s-hero .container .title .techs img:hover {
-  transform: translateY(-12%);
+  transform: translateY(-12%)  translateX(-12%) rotate(-20deg);
+
 }
 .s-hero .container .title .techs .btn-primary {
   margin-top: 4rem;
